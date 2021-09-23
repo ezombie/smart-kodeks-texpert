@@ -25,4 +25,4 @@
 Вопросы и поддержка
 ---
 Задать вопросы и присоединиться к бесплатному тестированию системы можно на телеграм канале: https://t.me/joinchat/uRkrNE_SNYY0YTUy
-<img src="/img/license.jpg" width="800" alt="">
+<img src="img/licenses.jpg" width="800" alt="">
