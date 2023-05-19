@@ -1,5 +1,5 @@
 # Инструкция
-
+<img src="img/logo_white.jpg" width="200" alt="" aling=left>
 # Оглавление
 
 ## Введение
