@@ -61,7 +61,7 @@
 - Почасовая статистика по утилизации лицензий у клиента
 - и другие 
 
-<img src="img/licenses.jpg" width="800" alt="" aling=left>
+<img src="img/licenses.jpg" width="800" alt="" align=top>
 
 Ближайшие планы
 ---
