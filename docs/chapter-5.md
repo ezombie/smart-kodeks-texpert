@@ -1,6 +1,6 @@
 ## ИНТЕРФЕЙС GRAFANA
 
-<img src="/img/interface.png" width="1200" hight="681" alt="Интерфейс Grafana" aling=top>
+<img src="/img/interface.png" alt="Интерфейс Grafana" align=top>
 
 Рис. 2 Интерфейс Grafana
 
