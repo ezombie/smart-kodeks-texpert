@@ -1,6 +1,6 @@
 # Инструкция
 
-<img src="img/logo_white.jpg" width="200" alt="" aling=left>
+<img src="img/лого_смарт_светлое.jpg" width="813" alt="" aling=center>
 
 # Оглавление
 
