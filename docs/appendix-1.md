@@ -57,3 +57,4 @@
 44. [OnlineBillingUploadLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md)
 45. [OnlineBillingUploadLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md)
 46. [SmartXMLfileIsToOld](http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md)
+47. [OnlineLoginFailed](http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md)
