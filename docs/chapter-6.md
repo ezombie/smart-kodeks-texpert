@@ -1,6 +1,6 @@
 # Настройки Grafana
 
-<img src="img/01_edited_top.png" alt="Настройки Grafana" align=top>
+<img src="img/01_edited_top_2.png" alt="Настройки Grafana" align=top>
 
 Рис.3 Настройки Grafana (некоторые).
 
