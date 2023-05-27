@@ -1,15 +1,16 @@
 # Инструкция
 
-<img src="img/лого_смарт_светлое.jpg" width="813" alt="">
+<img src="img/logo_smart_light.jpg" width="813" alt="">
 
 # Оглавление
 
 ## Введение
 
-[Вступительное слово](chapter-1.md)
+[Вступительное слово](chapter-0.md)
 
 ## Как это устроено
 
+- [Как это устроено?](chapter-1.md)
 - [Система сбора отчетов](chapter-2.md)
 - [Алертинг](chapter-3.md)
 - [Grafana](chapter-4.md) 
