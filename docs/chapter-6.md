@@ -1,4 +1,4 @@
-# Настройки Grafana
+# Использование Grafana для визуализации данных
 
 <img src="img/01_edited_top_2.png" alt="Настройки Grafana" align=top>
 
