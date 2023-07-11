@@ -1,15 +1,16 @@
 ## ПОЛНЫЙ СПИСОК АЛЕРТОВ
 
-Здесь представлен полный список алертов, существующих и использующихся по состоянию на 28.05.2023г.
+Здесь представлен полный список алертов, существующих и использующихся по состоянию на 12.07.2023г.
 
 По мере развития СМАРТа могут появляться новые, данный список будет, соотвественно, пополняться.
 
-Обращаем ваше внимание, что некоторые алерты в своем наименовании содеражат слово Count. 
+Обращаем внимание, что некоторые алерты в своем наименовании содержат слово Count. 
 
 Это означает, что данный алерт приходит в том, случае когда на подконтрольном СМАРТу адресе или адресах возникла массовая однотипная ошибка.
 Поскольку алерты приходят в Telegram-канал, у этой платформы технически есть ограничение на количество и частоту входящих сообщений.
 Если эти значения оказываются превышены - Telegram выдаст сообщение об ошибке "Error sending messages, check logs".
 В этом случае следует незамедлительно сообщить об этом разработчику СМАРТа.
+Для того, чтобы обойти такую техническую особенность Telegram - и был создан такой тип алертов.
 
 1. [KodeksAuthNotWork](http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md)
 2. [KodeksBehindProxyDown](http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md)
@@ -58,3 +59,5 @@
 45. [OnlineBillingUploadLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md)
 46. [SmartXMLfileIsToOld](http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md)
 47. [OnlineLoginFailed](http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md)
+
+[Вернуться к Оглавлению](Readme.md)
