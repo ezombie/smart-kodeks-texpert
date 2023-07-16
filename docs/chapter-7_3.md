@@ -110,7 +110,7 @@
 
 ## Осталось "Документы"
 
-<img src="img/billing_online/billing_docs_left.png" alt="Осталось "Документы"" align=top>
+<img src="img/billing_online/billing_docs_left.png" alt="Осталось Документы" align=top>
 
 Данный график отображает процесс исчерпания показателя "Документы" по каждому подконтрольной онлайн-доступу за заданный период времени.
 
@@ -139,5 +139,5 @@
 
 ## Осталось "Поиск"
 
-<img src="img/billing_online/billing_search_left.png" alt="Осталось "Поиск"" align=top>
+<img src="img/billing_online/billing_search_left.png" alt="Осталось Поиск" align=top>
 
