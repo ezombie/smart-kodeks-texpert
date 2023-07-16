@@ -52,7 +52,7 @@
 38. [OnlineBillingPrintLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md)
 39. [OnlineBillingPrintLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md)
 40. [OnlineBillingSearch150](http://smart.uniclass.ru/docs/errors/OnlineBillingSearch150.md)
-41. [OnlineBillingSearch500](http://smart.uniclass.ru/docs/errors/OnlineBillingSearch500.md)
+41. [OnlineBillingSearch50](http://smart.uniclass.ru/docs/errors/OnlineBillingSearch500.md)
 42. [OnlineBillingSearchLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingSearchLeftZero.md)
 43. [OnlineBillingUploadLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md)
 44. [OnlineBillingUploadLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md)
