@@ -198,7 +198,7 @@
   - [OnlineBillingPrintLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft150.md)
   - [OnlineBillingPrintLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md)
   - [OnlineBillingPrintLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md)
--Осталось "Выгрузка":
+- Осталось "Выгрузка":
   - [OnlineBillingUploadLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md)
   - [OnlineBillingUploadLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md)
   - [OnlineBillingUploadLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md)
