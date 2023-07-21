@@ -1,6 +1,6 @@
 # Инструкция
 
-<img src="img/logo_smart_light.jpg" width="813" alt="">
+<img src="img/main/logo_smart_light.jpg" width="813" alt="">
 
 # Оглавление
 
