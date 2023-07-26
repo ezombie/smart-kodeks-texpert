@@ -84,7 +84,7 @@ curl -H "upload: yes" -H "dealer: ИМЯДИСТРИБЬЮТОРА" -I 'http://s
 Если всё ОК - статус "200 ОК"
 
 ```shell
-curl -H "upload: yes" -H "dealer: Dealer" -I 'http://smart.uniclass.ru/files/foobar.xml?token=XXXXXXXXXX'
+curl -H "upload: yes" -H "dealer: Dealer" -I 'http://smart.uniclass.ru/files/ИМЯКЛИЕНТА.xml?token=ТОКЕНБЕЗОПАСНОСТИ'
 HTTP/1.1 200 OK
 ......
 ```
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Если файл не загрузился Статус "404 Not Found"
 
 ```shell
-curl -H "upload: yes" -H "dealer: Dealer" -I 'http://smart.uniclass.ru/files/foobar.xml?token=XXXXXXXXXX'
+curl -H "upload: yes" -H "dealer: Dealer" -I 'http://smart.uniclass.ru/files/ИМЯКЛИЕНТА.xml?token=ТОКЕНБЕЗОПАСНОСТИ'
 HTTP/1.1 404 Not Found
 .....
 ```
@@ -117,3 +117,6 @@ smartupload.sh .... -t user:login@192.168.0.1.:3128
 На графиках обновлённые данные появятся где-то в этом промежутке.
 Аварийные сообщения имеют различный период срабатывания\задержки поэтому появятся позднее.
 
+[Вернуться к началу](chapter-70.md)
+
+[Вернуться к Оглавлению, если стало страшно](Readme.md)
