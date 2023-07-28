@@ -6,26 +6,26 @@
 
 ## Введение
 
-[Вступительное слово](chapter-0.md)
+[Вступительное слово](00-intro.md)
 
 ## Как это устроено
 
-- [Как это устроено?](chapter-10.md)
-- [Система сбора отчетов](chapter-20.md)
-- [Алертинг](chapter-30.md)
-- [Grafana](chapter-40.md) 
-- [Интерфейс](chapter-50.md)
-- [Настройки](chapter-60.md)
-- [Как это работает и как это применять](chapter-80.md)
-- [Как это внедрять у клиентов](chapter-70.md)
+- [Как это устроено?](10-how it works.md)
+- [Система сбора отчетов](20-auto collect sysinfo.md)
+- [Алертинг](30-alert.md)
+- [Grafana](40-grafana.md) 
+- [Интерфейс](50-grafana interface.md)
+- [Настройки](60-grafana visualization.md)
+- [Как это работает и как это применять](80-dashboards.md)
+- [Как это внедрять у клиентов](70-intro smartuload smartstatus.md)
 
 
 ## Бизнес кейсы
 
 ## Непридуманные истории
 
-[Удивительное](fuckups.md)
+[Удивительное](00-fuckups.md)
 
 ## Приложение №1
 
-[Полный список алертов](appendix-1.md)
+[Полный список алертов](00-appendix-1.md)

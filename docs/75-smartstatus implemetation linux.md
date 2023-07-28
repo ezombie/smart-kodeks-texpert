@@ -1,6 +1,6 @@
 # Внедрение smartstatus  в ОС Linux
 
-Внедрение smartstatus в ОС Linux практически ничем не отличается от [внедрения smartupload в ОС Linux](chapter-72.md) и 
+Внедрение smartstatus в ОС Linux практически ничем не отличается от [внедрения smartupload в ОС Linux](72-smartupload implementation linux.md) и 
 с оглядкой на описанное внедрение smartstatus в ОС Windows выполняется аналогично.
 
 Опытному администратору Linux не составит труда скрестить основные посылы с упомянутых выше описаний и провести внедрение 
