@@ -10,14 +10,14 @@
 
 ## Как это устроено
 
-- [Как это устроено?](10-how it works.md)
-- [Система сбора отчетов](20-auto collect sysinfo.md)
+- [Как это устроено?](10-how-it-works.md)
+- [Система сбора отчетов](20-auto-collect-sysinfo.md)
 - [Алертинг](30-alert.md)
 - [Grafana](40-grafana.md) 
-- [Интерфейс](50-grafana interface.md)
-- [Настройки](60-grafana visualization.md)
+- [Интерфейс](50-grafana-interface.md)
+- [Настройки](60-grafana-visualization.md)
 - [Как это работает и как это применять](80-dashboards.md)
-- [Как это внедрять у клиентов](70-intro smartuload smartstatus.md)
+- [Как это внедрять у клиентов](70-intro-smartuload-smartstatus.md)
 
 
 ## Бизнес кейсы

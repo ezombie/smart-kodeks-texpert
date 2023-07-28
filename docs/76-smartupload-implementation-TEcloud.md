@@ -17,6 +17,6 @@
 
 Вот и все, все передельно просто, коллега.
 
-[Вернуться к началу](70-intro smartuload smartstatus.md)
+[Вернуться к началу](70-intro-smartuload-smartstatus.md)
 
 [Вернуться к Оглавлению, если стало страшно](Readme.md)

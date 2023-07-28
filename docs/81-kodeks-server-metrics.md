@@ -78,7 +78,7 @@
 
 Телеграмм-чат «СМАРТ-мониторинга» - https://t.me/+uRkrNE_SNYY0YTUy
 
-[Углубляемся еще дальше](82-kodeks analytics.md)
+[Углубляемся еще дальше](82-kodeks-analytics.md)
 
 [Вернуться назад](80-dashboards.md)
 
