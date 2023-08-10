@@ -6,32 +6,32 @@
 
 ## Введение
 
-[Вступительное слово](00-intro.md)
+[Вступительное слово](000-intro.md)
 
 ## Как это устроено
 
-- [Как это устроено?](10-how-it-works.md)
-- [Система сбора отчетов](20-auto-collect-sysinfo.md)
-- [Алертинг](30-alert.md)
-- [Grafana](40-grafana.md) 
-- [Интерфейс](50-grafana-interface.md)
-- [Настройки](60-grafana-visualization.md)
-- [Как это работает и как это применять](80-dashboards.md)
-- [Как это внедрять у клиентов](70-intro-smartuload-smartstatus.md)
+- [Как это устроено?](010-how-it-works.md)
+- [Система сбора отчетов](020-auto-collect-sysinfo.md)
+- [Алертинг](030-alert.md)
+- [Grafana](040-grafana.md) 
+- [Интерфейс](050-grafana-interface.md)
+- [Настройки](060-grafana-visualization.md)
+- [Как это работает и как это применять](080-dashboards.md)
+- [Как это внедрять у клиентов](070-intro-smartuload-smartstatus.md)
 
 
 ## Бизнес кейсы
 
 Живые примеры с пользой от СМАРТа:
-- [пример номер 1](97-smart-real-cases-1.md)
-- [пример номер 2](98-smart-real-cases-2.md)
-- [пример номер 3](99-smart-real-cases-3.md)
+- [пример номер 1](097-smart-real-cases-1.md)
+- [пример номер 2](098-smart-real-cases-2.md)
+- [пример номер 3](099-smart-real-cases-3.md)
 
 
 ## Непридуманные истории
 
-[Удивительное](00-fuckups.md)
+[Удивительное](000-fuckups.md)
 
 ## Приложение №1
 
-[Полный список алертов](00-appendix-1.md)
+[Полный список алертов](000-appendix-1.md)

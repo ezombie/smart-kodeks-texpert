@@ -22,6 +22,6 @@
 Вот и все.
 Все передельно просто, коллега.
 
-[Вернуться к началу](70-intro-smartuload-smartstatus.md)
+[Вернуться к началу](070-intro-smartuload-smartstatus.md)
 
 [Вернуться к Оглавлению, если стало страшно](Readme.md)

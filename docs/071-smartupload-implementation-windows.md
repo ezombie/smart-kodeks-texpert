@@ -23,11 +23,11 @@
 Для удобства навигации оглавление представлено ниже:
 
 Процесс внедрения состоит из следующих этапов:
-- [Подготовка скрипта smartupload, его размещение](71-smartupload-implementation-windows.md#подготовка-скрипта-smartupload)
-- [Скачивание утилиты Curl](71-smartupload-implementation-windows.md#скачивание-утилиты-curl)
-- [Разворачивание утилиты Curl, внедрение скрипта](71-smartupload-implementation-windows.md#разворачиваyие-утилиты-curl-внедрение-скрипта)
-- [Тестовый запуск, оценка результатов запуска](71-smartupload-implementation-windows.md#тестовый-запуск-оценка-результатов-запуска)
-- [Автоматизация исполнение скрипта](71-smartupload-implementation-windows.md#автоматизация-исполнения-скрипта)
+- [Подготовка скрипта smartupload, его размещение](071-smartupload-implementation-windows.md#подготовка-скрипта-smartupload)
+- [Скачивание утилиты Curl](071-smartupload-implementation-windows.md#скачивание-утилиты-curl)
+- [Разворачивание утилиты Curl, внедрение скрипта](071-smartupload-implementation-windows.md#разворачиваyие-утилиты-curl-внедрение-скрипта)
+- [Тестовый запуск, оценка результатов запуска](071-smartupload-implementation-windows.md#тестовый-запуск-оценка-результатов-запуска)
+- [Автоматизация исполнение скрипта](071-smartupload-implementation-windows.md#автоматизация-исполнения-скрипта)
 
 Для целей эффективности и быстроты внедрения специалисту, выполняющему внедрение smartupload желательно быть на уровне Уверенного Пользователя ПК (для ОС Windows).
 
@@ -35,9 +35,9 @@
 
 Процесс внедрения smartupload в ОС Windows и ОС Linux радикально ничем не отличается, однако имеет свои небольшие нюансы.
 
-Если тебе нужно внедрить smartupload в ОС Windows, то читай [дальше.](71-smartupload-implementation-windows.md#подготовка-скрипта-smartupload)
+Если тебе нужно внедрить smartupload в ОС Windows, то читай [дальше.](071-smartupload-implementation-windows.md#подготовка-скрипта-smartupload)
 
-Если тебе нужно внедрить smartupload в ОС Linux, то тебе [сюда.](72-smartupload-implementation-linux.md)
+Если тебе нужно внедрить smartupload в ОС Linux, то тебе [сюда.](072-smartupload-implementation-linux.md)
 
 ## Подготовка скрипта smartupload
 
@@ -228,7 +228,7 @@
 На графиках обновлённые данные появятся где-то в этом промежутке.
 Аварийные сообщения имеют различный период срабатывания\задержки поэтому появятся позднее.
 
-[Вернуться к началу](70-intro-smartuload-smartstatus.md)
+[Вернуться к началу](070-intro-smartuload-smartstatus.md)
 
 [Вернуться к Оглавлению, если стало страшно](Readme.md)
 
