@@ -4,7 +4,8 @@
 
 **Ситуация:**
 
-Вечером (в конце очередного рабочего дня) ответственному менеджеру в телеграм-канал уведомлений смарта прилетает алерт [KodeksXmlSensLockStatus](http://smart.uniclass.ru/docs/errors/KodeksXmlSensLockStatus.md)
+Вечером (в конце очередного рабочего дня) ответственному менеджеру в телеграм-канал уведомлений смарта прилетает алерт
+[KodeksXmlSensLockStatus](http://smart.uniclass.ru/docs/errors/KodeksXmlSensLockStatus.md)
 Менеджер понимает, что установка по какой-то причине потеряла ключ SenseLock, и, как следствие, комплекты не собираются.
 
 На часах 8 вечера.

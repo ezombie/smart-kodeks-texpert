@@ -7,7 +7,7 @@
 
 Шаблон csv-файла выдается разработчиком СМАРТа и содержит следующую информацию:
 
-<img src="img/implementation/smartonline_example.png" alt="Шаблон csv-файла" align=top>
+<img src="img/implementation/smartonline-example.png" alt="Шаблон csv-файла" align=top>
 
 - firm1, firm2, firm3....firmN - краткое наименование клиента (юр.лицо), кто является пользователем онлайн-доступа.
 Можно использовать кириллицу, латиницу, верхний и нижний регистр, цифры и спец.символы в количестве и качестве,

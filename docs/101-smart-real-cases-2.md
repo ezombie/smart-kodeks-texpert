@@ -9,11 +9,10 @@
 
 В районе 6 утра рабочего дня по каждой установке поступают алерты:
 - [KodeksBehindProxyDown](http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md)
-- [KodeksIcmp](http://smart.uniclass.ru/docs/errors/KodeksIcmp.md)
 
 В телеграм-канале это выглядит так:
 
-<img src="img/smart real cases/search empty_telegram.png" alt="Алерт в канал telegram" align=top>
+<img src="img/smart-real-cases/search-empty-telegram.png" alt="Алерт в канал telegram" align=top>
 
 Менеджер к 8 утра видит их и понимает, что установки недоступна.
 

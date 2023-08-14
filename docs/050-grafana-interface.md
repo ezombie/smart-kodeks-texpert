@@ -1,6 +1,6 @@
 ## ИНТЕРФЕЙС GRAFANA
 
-<img src="img/smart_settings/interface.png" alt="Интерфейс Grafana" align=top>
+<img src="img/smart-settings/interface.png" alt="Интерфейс Grafana" align=top>
 
 Рис. 2 Интерфейс Grafana
 

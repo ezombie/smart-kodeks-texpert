@@ -33,7 +33,7 @@ Smartstatus отслеживает в режиме реального време
 
 Скрипт, ввиду его функционала, содержит исходные данные, индивидуальные для каждой конкретной установки, которую необходимо поставить под контроль smartstatus.
 
-<img src="img/implementation/smartstatus_example.png" alt="Пример скрипта дл внедрения smartstatus" align=top>
+<img src="img/implementation/smartstatus-example.png" alt="Пример скрипта дл внедрения smartstatus" align=top>
 
 Как видно из скриншота, для подготовки скрипта нужно определить и заменить в самом скрипте некоторые входные данные:
 - НАЗВАНИЕКЛИЕНТА - название клиента, установку которого необходимо поставить под контроль smartstatus.
@@ -90,7 +90,7 @@ Smartstatus отслеживает в режиме реального време
 
 В итоге у тебя должно получится вот такое:
 
-<img src="img/implementation/smartstatus_curl_placement.png" alt="Перенос Curl" align=top>
+<img src="img/implementation/smartstatus-curl-placement.png" alt="Перенос Curl" align=top>
 
 ## Тестовый запуск, оценка результатов запуска
 
@@ -102,12 +102,12 @@ Smartstatus отслеживает в режиме реального време
 Для этого нажимаем кнопку "Пуск", далее в строке поиска приложения набираем cmd. 
 В предложенных вариантах видим приложение cmd.exe, кликаем по нему правой кнопкой мыши и в выпавшем меню выбираем "Запуск от имени администратора".
 
-<img src="img/implementation/cmd_windows.png" alt="Запуск командной строки" align=top>
+<img src="img/implementation/cmd-windows.png" alt="Запуск командной строки" align=top>
 
 Откроется окно командной строки Windows с отображением активного пути по умолчанию.
 Нужно перейти в директорию, где лежит smartstatus.bat, скорректированный под клиента.
 
-<img src="img/implementation/smartstatus_cmd_open bat.png" alt="В командной строке" align=top>
+<img src="img/implementation/smartstatus-cmd-open-bat.png" alt="В командной строке" align=top>
 
 Путь показан как пример.
 В твоем случае он будет отличаться от того, который в примере.
@@ -116,7 +116,7 @@ Smartstatus отслеживает в режиме реального време
 
 В результате в консоли можно будет наблюдать вот такой результат:
 
-<img src="img/implementation/smartstatus_cmd_result_200 OK.png" alt="Успешное выполнение скрипта" align=top>
+<img src="img/implementation/smartstatus-cmd-result-200-OK.png" alt="Успешное выполнение скрипта" align=top>
 
 Как можно заметить, в результатах можно увидеть HTTP-коды результатов.
 Если видишь код 200 - все ок, скрипт отработал успешно.
@@ -128,7 +128,7 @@ Smartstatus отслеживает в режиме реального време
 
 Еще одним фактором успешной отработки скрипта является тот факт, что в той же папке, где находится скрипт, появились файлы: собранный отчет и файл cookies.txt:
 
-<img src="img/implementation/smartstatus_folder.png" alt="Кроме СМАРТа появились еще файлы" align=top>
+<img src="img/implementation/smartstatus-folder.png" alt="Кроме СМАРТа появились еще файлы" align=top>
 
 При успешности выполнения этого этапа можно переходить к автоматизации последующего исполнения корректного скрипта по расписанию.
 
@@ -138,26 +138,26 @@ Smartstatus отслеживает в режиме реального време
 
 В ОС Windows это можно сделать с помощью стандартных средств самой ОС - Планировщик заданий.
 
-<img src="img/implementation/task scheduler_where.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/task-scheduler-where.png" alt="Планировщик заданий" align=top>
 
 Пуск -> Панель управления -> Администрирование -> Планировщик задач
 
 Далее в планировщике необходимо создать задачу (не выбирать создать ПРОСТУЮ задачу!!!) со следующими настройками (см. картинки ниже):
 
-<img src="img/implementation/smartstatus_task scheduler_common settings.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-common-settings.png" alt="Планировщик заданий" align=top>
 
 Обязательно выставить исполнение вне зависимости от пользователя и с наивысшими правами - при некоторых настройках групповых и локальных политик безопасности, 
 программе может оказаться невозможно писать файлы в свою же папку.
 А это недопустимо.
 
-<img src="img/implementation/smartstatus_task scheduler_triggers.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-triggers.png" alt="Планировщик заданий" align=top>
 
 Периодичность выполнения задачи - каждые 15 минут, бесконечно.
 
-Здесь важно выдержать хоронометраж выполняемых фоновых заданий - чтобы задача smartstatus не пересекалась с ежедневными процедурами самого ПК: бэкап, перезапуск, обновление.
+Здесь важно выдержать хронометраж выполняемых фоновых заданий - чтобы задача smartstatus не пересекалась с ежедневными процедурами самого ПК: бэкап, перезапуск, обновление.
 В эти моменты ПК может быть недоступен.
 
-<img src="img/implementation/smartstatus_task scheduler_actions.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-actions.png" alt="Планировщик заданий" align=top>
 
 Здесь задается параметр того, что должно быть выполнено в рамках данной задачи - в нашем случае это "Запуск программы", а именно запуск smartstatus.bat.
 
@@ -171,13 +171,13 @@ Smartstatus отслеживает в режиме реального време
 
 ---
 
-<img src="img/implementation/smartstatus_task scheduler_conditions.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-conditions.png" alt="Планировщик заданий" align=top>
 
-<img src="img/implementation/smartstatus_task scheduler_extra settings.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-extra-settings.png" alt="Планировщик заданий" align=top>
 
 На этих двух скриншотах показано, какие еще должны быть выставлены условия для запуска и функционирования задачи.
 
-<img src="img/implementation/smartstatus_task scheduler_common settings_password.png" alt="Планировщик заданий" align=top>
+<img src="img/implementation/smartstatus-task-scheduler-common-settings-password.png" alt="Планировщик заданий" align=top>
 
 После всех настроек задачи система спросит пароль, если была выставлена галочка "Выполнять с наивысшими правами".
 

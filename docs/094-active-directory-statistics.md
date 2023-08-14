@@ -20,12 +20,12 @@
 - увидеть **региональные филиалы**, которые могут стать **точками роста** количества требуемых лицензий или **дополнительных комплектов**.
 - увидеть вклад каждого отдела в занятые лицензии и в переговорах иметь аргументацию, если у клиента разные подразделения имеют свой бюджет на внедрение
 
-![Подключённые пользователи](img/active_directory/domain_docs.png "")
-![Подключённые пользователи](img/active_directory/domain_free_docs.png "")
-![Подключённые пользователи](img/active_directory/domain_notfree_docs.png "")
-![Подключённые пользователи](img/active_directory/domain_print.png "")
-![Подключённые пользователи](img/active_directory/domain_save.png "")
-![Подключённые пользователи](img/active_directory/domain_active.png "")
+![Подключённые пользователи](img/active-directory/domain-docs.png "")
+![Подключённые пользователи](img/active-directory/domain-free-docs.png "")
+![Подключённые пользователи](img/active-directory/domain-notfree-docs.png "")
+![Подключённые пользователи](img/active-directory/domain-print.png "")
+![Подключённые пользователи](img/active-directory/domain-save.png "")
+![Подключённые пользователи](img/active-directory/domain-active.png "")
 
 ---
 

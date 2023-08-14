@@ -10,7 +10,7 @@
 
 Поступающие алерты в почте менеджеру:
 
-<img src="img/smart real cases/search empty_mail.png" alt="Алерт в почту на пустой поиск" align=top>
+<img src="img/smart-real-cases/search-empty-mail.png" alt="Алерт в почту на пустой поиск" align=top>
 
 На графике [Количество неудачных поисков за сутки](082-kodeks-analytics.md#количество-неудачных-поисков-за-сутки) 
 дашборда [Kodeks аналитика](082-kodeks-analytics.md) это выглядит так:
