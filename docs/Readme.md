@@ -26,6 +26,7 @@
 - [пример номер 1](100-smart-real-cases-1.md)
 - [пример номер 2](101-smart-real-cases-2.md)
 - [пример номер 3](102-smart-real-cases-3.md)
+- [пример номер 4](103-smart-real-cases-4.md)
 
 
 ## Непридуманные истории

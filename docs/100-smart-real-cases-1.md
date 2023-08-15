@@ -30,7 +30,7 @@
 
 Алерты в telegram-канал, которые увидел менеджер по факту поступления проблемы и после ее разрешения:
 
-<img src="img/smart real cases/lost sense lock_telegram.png" alt="Алерты в канал telegram" align=top>
+<img src="img/smart-real-cases/lost-sense-lock-telegram.png" alt="Алерты в канал telegram" align=top>
 
 **Выводы:**
 - Плюсы:
