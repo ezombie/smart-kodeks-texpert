@@ -33,7 +33,7 @@ Smartstatus отслеживает в режиме реального време
 
 Скрипт, ввиду его функционала, содержит исходные данные, индивидуальные для каждой конкретной установки, которую необходимо поставить под контроль smartstatus.
 
-<img src="img/implementation/smartstatus-example.png" alt="Пример скрипта дл внедрения smartstatus" align=top>
+![Пример скрипта дл внедрения smartstatus](img/implementation/smartstatus-example.png "Пример скрипта дл внедрения smartstatus")
 
 Как видно из скриншота, для подготовки скрипта нужно определить и заменить в самом скрипте некоторые входные данные:
 - НАЗВАНИЕКЛИЕНТА - название клиента, установку которого необходимо поставить под контроль smartstatus.
@@ -90,7 +90,7 @@ Smartstatus отслеживает в режиме реального време
 
 В итоге у тебя должно получится вот такое:
 
-<img src="img/implementation/smartstatus-curl-placement.png" alt="Перенос Curl" align=top>
+![Перенос Curl](img/implementation/smartstatus-curl-placement.png "Перенос Curl")
 
 ## Тестовый запуск, оценка результатов запуска
 
@@ -102,12 +102,12 @@ Smartstatus отслеживает в режиме реального време
 Для этого нажимаем кнопку "Пуск", далее в строке поиска приложения набираем cmd. 
 В предложенных вариантах видим приложение cmd.exe, кликаем по нему правой кнопкой мыши и в выпавшем меню выбираем "Запуск от имени администратора".
 
-<img src="img/implementation/cmd-windows.png" alt="Запуск командной строки" align=top>
+![Запуск командной строки](img/implementation/cmd-windows.png "Запуск командной строки")
 
 Откроется окно командной строки Windows с отображением активного пути по умолчанию.
 Нужно перейти в директорию, где лежит smartstatus.bat, скорректированный под клиента.
 
-<img src="img/implementation/smartstatus-cmd-open-bat.png" alt="В командной строке" align=top>
+![В командной строке](img/implementation/smartstatus-cmd-open-bat.png "В командной строке")
 
 Путь показан как пример.
 В твоем случае он будет отличаться от того, который в примере.
@@ -116,7 +116,7 @@ Smartstatus отслеживает в режиме реального време
 
 В результате в консоли можно будет наблюдать вот такой результат:
 
-<img src="img/implementation/smartstatus-cmd-result-200-OK.png" alt="Успешное выполнение скрипта" align=top>
+![Успешное выполнение скрипта](img/implementation/smartstatus-cmd-result-200-OK.png "Успешное выполнение скрипта")
 
 Как можно заметить, в результатах можно увидеть HTTP-коды результатов.
 Если видишь код 200 - все ок, скрипт отработал успешно.
@@ -128,7 +128,7 @@ Smartstatus отслеживает в режиме реального време
 
 Еще одним фактором успешной отработки скрипта является тот факт, что в той же папке, где находится скрипт, появились файлы: собранный отчет и файл cookies.txt:
 
-<img src="img/implementation/smartstatus-folder.png" alt="Кроме СМАРТа появились еще файлы" align=top>
+![Кроме СМАРТа появились еще файлы](img/implementation/smartstatus-folder.png "Кроме СМАРТа появились еще файлы")
 
 При успешности выполнения этого этапа можно переходить к автоматизации последующего исполнения корректного скрипта по расписанию.
 
@@ -138,26 +138,26 @@ Smartstatus отслеживает в режиме реального време
 
 В ОС Windows это можно сделать с помощью стандартных средств самой ОС - Планировщик заданий.
 
-<img src="img/implementation/task-scheduler-where.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/task-scheduler-where.png "Планировщик заданий")
 
 Пуск -> Панель управления -> Администрирование -> Планировщик задач
 
 Далее в планировщике необходимо создать задачу (не выбирать создать ПРОСТУЮ задачу!!!) со следующими настройками (см. картинки ниже):
 
-<img src="img/implementation/smartstatus-task-scheduler-common-settings.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-common-settings.png "Планировщик заданий")
 
 Обязательно выставить исполнение вне зависимости от пользователя и с наивысшими правами - при некоторых настройках групповых и локальных политик безопасности, 
 программе может оказаться невозможно писать файлы в свою же папку.
 А это недопустимо.
 
-<img src="img/implementation/smartstatus-task-scheduler-triggers.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-triggers.png "Планировщик заданий")
 
 Периодичность выполнения задачи - каждые 15 минут, бесконечно.
 
 Здесь важно выдержать хронометраж выполняемых фоновых заданий - чтобы задача smartstatus не пересекалась с ежедневными процедурами самого ПК: бэкап, перезапуск, обновление.
 В эти моменты ПК может быть недоступен.
 
-<img src="img/implementation/smartstatus-task-scheduler-actions.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-actions.png "Планировщик заданий")
 
 Здесь задается параметр того, что должно быть выполнено в рамках данной задачи - в нашем случае это "Запуск программы", а именно запуск smartstatus.bat.
 
@@ -171,13 +171,13 @@ Smartstatus отслеживает в режиме реального време
 
 ---
 
-<img src="img/implementation/smartstatus-task-scheduler-conditions.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-conditions.png "Планировщик заданий")
 
-<img src="img/implementation/smartstatus-task-scheduler-extra-settings.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-extra-settings.png "Планировщик заданий")
 
 На этих двух скриншотах показано, какие еще должны быть выставлены условия для запуска и функционирования задачи.
 
-<img src="img/implementation/smartstatus-task-scheduler-common-settings-password.png" alt="Планировщик заданий" align=top>
+![Планировщик заданий](img/implementation/smartstatus-task-scheduler-common-settings-password.png "Планировщик заданий")
 
 После всех настроек задачи система спросит пароль, если была выставлена галочка "Выполнять с наивысшими правами".
 
