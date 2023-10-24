@@ -5,7 +5,7 @@
 
 Здесь потребуется только заполнить csv-файл с данными по адресам тех онлайн-доступов, которые необходимо отслеживать.
 
-[Шаблон csv-файла можно сказть тут](https://disk.yandex.ru/d/KsVJ2Cj0-wrSVg)
+[Шаблон csv-файла можно скачать тут](https://disk.yandex.ru/d/KsVJ2Cj0-wrSVg)
 
 ![Шаблон csv-файла](img/implementation/smartonline-example.png "Шаблон csv-файла")
 

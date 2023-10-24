@@ -40,4 +40,6 @@
 
 [Листай дальше](094-billing-online-analytics.md)
 
+[Вернуться назад](080-dashboards.md)
+
 [Вернуться в Оглавление](Readme.md)

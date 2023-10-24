@@ -12,7 +12,7 @@
 
 В телеграм-канале это выглядит так:
 
-<img src="img/smart-real-cases/search-empty-telegram.png" alt="Алерт в канал telegram" align=top>
+![Алерт в канал telegram](img/smart-real-cases/search-empty-telegram.png "Алерт в канал telegram")
 
 Менеджер к 8 утра видит их и понимает, что установки недоступна.
 

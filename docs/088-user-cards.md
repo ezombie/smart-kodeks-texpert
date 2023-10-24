@@ -4,4 +4,6 @@
 
 [Листай дальше](089-versioning-SP-kassist.md)
 
+[Вернуться назад](080-dashboards.md)
+
 [Вернуться в Оглавление](Readme.md)
