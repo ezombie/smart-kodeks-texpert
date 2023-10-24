@@ -34,6 +34,6 @@
 
 ---
 
-[Листай дальше](095-current-emergences.md)
+[Листай дальше](096-current-emergences.md)
 
 [Вернуться в Оглавление](Readme.md)
