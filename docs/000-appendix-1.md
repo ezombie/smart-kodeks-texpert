@@ -59,5 +59,6 @@
 45. [OnlineBillingUploadLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md)
 46. [SmartXMLfileIsToOld](http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md)
 47. [OnlineLoginFailed](http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md)
+48. [KodeksMaintenanceToLong](http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLong.md)
 
 [Вернуться к Оглавлению](Readme.md)
