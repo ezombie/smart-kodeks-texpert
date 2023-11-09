@@ -1,64 +1,118 @@
 ## ПОЛНЫЙ СПИСОК АЛЕРТОВ
 
-Здесь представлен полный список алертов, существующих и использующихся по состоянию на 10.08.2023г.
+Здесь представлена обо всех алертах, существующих и использующихся по состоянию на 09.11.2023г.
 
-По мере развития СМАРТа могут появляться новые, данный список будет, соответственно, пополняться.
+По мере развития СМАРТа могут появляться новые, данный раздел будет, соответственно, пополняться.
 
 Обращаем внимание, что некоторые алерты в своем наименовании содержат слово Count. 
 
-Это означает, что данный алерт приходит в том, случае когда на подконтрольном СМАРТу объекте или объектах возникла массовая однотипная ошибка.
+Как это понимать - данный алерт приходит в том, случае когда на подконтрольном СМАРТу объекте или объектах возникла массовая однотипная ошибка.
 Поскольку алерты приходят в Telegram-канал, у этой платформы технически есть ограничение на количество и частоту входящих сообщений.
 Если эти значения оказываются превышены - Telegram выдаст сообщение об ошибке "Error sending messages, check logs".
 В этом случае следует незамедлительно сообщить об этом разработчику СМАРТа.
 Для того чтобы обойти такую техническую особенность Telegram - и был создан такой тип алертов.
 
-1. [KodeksAuthNotWork](http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md)
-2. [KodeksBehindProxyDown](http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md)
-3. [KodeksDBerrorsCode1](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md)
-4. [KodeksDBerrorsCode1Count](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md)
-5. [KodeksDBerrorsCode2007](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md)
-6. [KodeksDBerrorsCode2007Count](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md)
-7. [KodeksDBerrorsCodeXXX](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md)
-8. [KodeksDBerrorsCodeXXXCount](http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md)
-9. [KodeksDBOperUpToOld](http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOld.md)
-10. [KodeksDBOperUpToOldCount](http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md)
-11. [KodeksDetectOverUserError](http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md)
-12. [KodeksHttp200Status](http://smart.uniclass.ru/docs/errors/KodeksHttp200Status.md)
-13. [KodeksIcmp](http://smart.uniclass.ru/docs/errors/KodeksIcmp.md)
-14. [KodeksLicenseExpiring2day](http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md)
-15. [KodeksLicenseExpiring7day](http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md)
-16. [KodeksLicenseExpiring90day](http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md)
-17. [KodeksLimitsUsers](http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md)
-18. [KodeksMaintenance](http://smart.uniclass.ru/docs/errors/KodeksMaintenance.md)
-19. [KodeksMaintenanceCount](http://smart.uniclass.ru/docs/errors/KodeksMaintenanceCount.md)
-20. [KodeksNeedSupport](http://smart.uniclass.ru/docs/errors/KodeksNeedSupport.md)
-21. [KodeksNewUser](http://smart.uniclass.ru/docs/errors/KodeksNewUser.md)
-22. [KodeksOfflineSensLockCheck](http://smart.uniclass.ru/docs/errors/KodeksOfflineSensLockCheck.md)
-23. [KodeksOnlineSensLockCheck](http://smart.uniclass.ru/docs/errors/KodeksOnlineSensLockCheck.md)
-24. [KodeksSearchIsEmpty](http://smart.uniclass.ru/docs/errors/KodeksSearchIsEmpty.md)
-25. [KodeksSppStatus](http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md)
-26. [KodeksTcpStatus](http://smart.uniclass.ru/docs/errors/KodeksTcpStatus.md)
-27. [KodeksUnsupportedButUsed](http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md)
-28. [KodeksUserActivityIsLow](http://smart.uniclass.ru/docs/errors/KodeksUserActivityIsLow.md)
-29. [KodeksUserAInvolvementIsLow](http://smart.uniclass.ru/docs/errors/KodeksUserAInvolvementIsLow.md)
-30. [KodeksWarning](http://smart.uniclass.ru/docs/errors/KodeksWarning.md)
-31. [KodeksXmlSensLockStatus](http://smart.uniclass.ru/docs/errors/KodeksXmlSensLockStatus.md)
-32. [LicmanIcmp](http://smart.uniclass.ru/docs/errors/LicmanIcmp.md)
-33. [LicmanTcpStatus](http://smart.uniclass.ru/docs/errors/LicmanTcpStatus.md)
-34. [OnlineBillingDocsLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft150.md)
-35. [OnlineBillingDocsLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft50.md)
-36. [OnlineBillingDocsLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeftZero.md)
-37. [OnlineBillingPrintLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft150.md)
-38. [OnlineBillingPrintLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md)
-39. [OnlineBillingPrintLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md)
-40. [OnlineBillingSearch150](http://smart.uniclass.ru/docs/errors/OnlineBillingSearch150.md)
-41. [OnlineBillingSearch50](http://smart.uniclass.ru/docs/errors/OnlineBillingSearch500.md)
-42. [OnlineBillingSearchLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingSearchLeftZero.md)
-43. [OnlineBillingUploadLeft150](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md)
-44. [OnlineBillingUploadLeft50](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md)
-45. [OnlineBillingUploadLeftZero](http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md)
-46. [SmartXMLfileIsToOld](http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md)
-47. [OnlineLoginFailed](http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md)
-48. [KodeksMaintenanceToLong](http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLong.md)
+---
+### Алерты на ошибки с базами данных и operup
+
+| **Имя алерта**              | **Краткое описание алерта**                                                                                                | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить.                                                 | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
+| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить.<br>**Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
+| KodeksDBerrorsCode2007      | Ошибка БД 2007 - Нет прав на использование данной БД.                                                                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md      |
+| KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД.<br>**Много однотипных ошибок по многим БД ПК.**                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
+| KodeksDBerrorsCodeXXX       | Выявлены разнообразные ошибки с БД ПК.                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md       |
+| KodeksDBerrorsCodeXXXCount  | Выявлены разнообразные ошибки с БД ПК.<br>**Много однотипных ошибок по многим БД ПК.**                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md  |
+| KodeksDBOperUpToOld         | Дата операпов старше 3 дней                                                                                                | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOld.md         |
+| KodeksDBOperUpToOldCount    | Дата операпов старше 3 дней.<br>**Много однотипных ошибок по многим операпам.**                                            | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md    |
+
+---
+### Алерты, связанные с сетевой доступностью
+
+| **Имя алерта**        | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**           |
+|-----------------------|----------------------------------------------------------------------------|---------------------------------------------------------------|
+| KodeksBehindProxyDown | На сервере с ПК ТЭ есть проблемы с reverse-proxy.                          | http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md |
+| KodeksHttp200Status   | На запросы ПК ТЭ не отвечает HTTP 200.                                     | http://smart.uniclass.ru/docs/errors/KodeksHttp200Status.md   |
+| KodeksIcmp            | Проверка на доступность ПК ТЭ командой ping по протоколу ICMP не проходит. | http://smart.uniclass.ru/docs/errors/KodeksIcmp.md            |
+| KodeksTcpStatus       | Проверяется, что порт-монитор ПК ТЭ готов "слушать".                       | http://smart.uniclass.ru/docs/errors/KodeksTcpStatus.md       |
+
+---
+### Алерты, связанные с простыми онлайн-доступами
+
+| **Имя алерта**              | **Краткое описание алерта**                  | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|----------------------------------------------|---------------------------------------------------------------------|
+| OnlineBillingDocsLeft150    | Биллинг на открытие документов - ниже 150шт. | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft150.md    |
+| OnlineBillingDocsLeft50     | Биллинг на открытие документов - ниже 50шт.  | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft50.md     |
+| OnlineBillingDocsLeftZero   | Биллинг на открытие документов - ноль.       | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeftZero.md   |
+| OnlineBillingPrintLeft150   | Биллинг на печать документов - ниже 150шт.   | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft150.md   |
+| OnlineBillingPrintLeft50    | Биллинг на печать документов - ниже 50шт.    | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md    |
+| OnlineBillingPrintLeftZero  | Биллинг на печать документов - ноль          | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md  |
+| OnlineBillingSearch150      | Биллинг на поиск документов - ниже 150шт.    | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch150.md      |
+| OnlineBillingSearch50       | Биллинг на поиск документов - ниже 50шт.     | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch500.md      |
+| OnlineBillingSearchLeftZero | Биллинг на поиск документов - ноль.          | http://smart.uniclass.ru/docs/errors/OnlineBillingSearchLeftZero.md |
+| OnlineBillingUploadLeft150  | Биллинг на выгрузку документов - ниже 150шт. | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md  |
+| OnlineBillingUploadLeft50   | Биллинг на выгрузку документов - ниже 50шт.  | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md   |
+| OnlineBillingUploadLeftZero | Биллинг на выгрузку документов - ноль.       | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md |
+| OnlineLoginFailed           | Авторизация по онлайн-доступу не прошла.     | http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md           |
+
+---
+### Алерты, связаные с сетевой доступностью ПК ТЭ
+
+| **Имя алерта**          | **Краткое описание алерта*                                                                           | **Адрес с полным описанием и способами устранения**             |
+|-------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| KodeksMaintenance       | ПК ТЭ в режиме тех.обслуживания.                                                                     | http://smart.uniclass.ru/docs/errors/KodeksMaintenance.md       |
+| KodeksMaintenanceCount  | Большое количество ПК ТЭ оказались в режиме тех.обслуживания.                                        | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceCount.md  |
+| KodeksNeedSupport       | На Главной странице ПК ТЭ появляется сервисное сообщение<br>о необходимости сервисного обслуживания. | http://smart.uniclass.ru/docs/errors/KodeksNeedSupport.md       |
+| KodeksMaintenanceToLong | ПК в режиме тех.обслуживания более 3 часов подряд.                                                   | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLong.md |
+
+--
+### Алерты, связанные с работой Менеджера лицензий
+
+| **Имя алерта*   | **Краткое описание алерта**                                                  | **Адрес с полным описанием и способами устранения**     |
+|-----------------|------------------------------------------------------------------------------|---------------------------------------------------------|
+| LicmanIcmp      | Проверка на доступность Менеджера лицензий командой Ping по протокорлу ICMP. | http://smart.uniclass.ru/docs/errors/LicmanIcmp.md      |
+| LicmanTcpStatus | Проверка, что порт-монитор Менеджера лицензий открыт и "слушает".            | http://smart.uniclass.ru/docs/errors/LicmanTcpStatus.md |
+
+---
+### Алерты, связанные с работой ключей SenseLock
+
+| **Имя алерта**             | **Краткое описание алерта**                                                   | **Адрес с полным описанием и способами устранения**                |
+|----------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| KodeksOfflineSensLockCheck | Проверяется, что ключ SenseLock доступен.                                     | http://smart.uniclass.ru/docs/errors/KodeksOfflineSensLockCheck.md |
+| KodeksOnlineSensLockCheck  | Проверяется, что ПК сообщает, что ключ SenseLock активен.                     | http://smart.uniclass.ru/docs/errors/KodeksOnlineSensLockCheck.md  |
+| KodeksXmlSensLockStatus    | Проверяется, что информация о статусе ключа SenseLock присутствует в Sysinfo. | http://smart.uniclass.ru/docs/errors/KodeksXmlSensLockStatus.md    |
+
+---
+### Алерты, связанные с лицензией (рег.файлом и его работой, рабочими местами по лицензии)
+
+| **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                         | **Адрес с полным описанием и способами устранения**                |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ,<br>а ПК вернул ему, что **нет свободных рабочих мест для входа.**                                                   | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
+| KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                       | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
+| KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                      | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
+| KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
+| KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
+| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она<br>при этом функциональна), происходит вход пользователей и есть данные об<br>об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
+
+---
+### Алерты, связанные с пользователями и их работой в ПК ТЭ
+
+| **Имя алерта**              | **Краткое описание алерта**                                             | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------|
+| KodeksNewUser               | Проверяется, что в ПК ТЭ зарегистрировался новый пользователь.          | http://smart.uniclass.ru/docs/errors/KodeksNewUser.md               |
+| KodeksUserActivityIsLow     | Проверяется, что Активность пользователей по установке не ниже 20.      | http://smart.uniclass.ru/docs/errors/KodeksUserActivityIsLow.md     |
+| KodeksUserAInvolvementIsLow | Проверяется, что Вовлеченность пользователей по установке не ниже 60%.  | http://smart.uniclass.ru/docs/errors/KodeksUserAInvolvementIsLow.md |
+| KodeksSearchIsEmpty         | Проверяется, что по поисковому запросу пользователя ПК ТЭ что-то нашел. | http://smart.uniclass.ru/docs/errors/KodeksSearchIsEmpty.md         |
+
+---
+### Прочие алерты
+
+| **Имя алерта**    | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**       |
+|-------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
+| KodeksAuthNotWork | Проверяется, что пользователи могут успешно проходить авторизацию в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md |
+| KodeksSppStatus   | Проверяется, что СПП работает.                                             | http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md   |
+| KodeksWarning     | Проверяется, что на установке нет каких-либо аварийных состояний           | http://smart.uniclass.ru/docs/errors/KodeksWarning.md     |
+
+[Вернуться в Начало](000-intro.md)
 
 [Вернуться к Оглавлению](Readme.md)
