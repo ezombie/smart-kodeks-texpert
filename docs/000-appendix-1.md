@@ -18,13 +18,13 @@
 | **Имя алерта**              | **Краткое описание алерта**                                                                                                | **Адрес с полным описанием и способами устранения**                 |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить.                                                 | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
-| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить.<br>**Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
+| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить. **Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
 | KodeksDBerrorsCode2007      | Ошибка БД 2007 - Нет прав на использование данной БД.                                                                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md      |
-| KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД.<br>**Много однотипных ошибок по многим БД ПК.**                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
+| KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД. **Много однотипных ошибок по многим БД ПК.**                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
 | KodeksDBerrorsCodeXXX       | Выявлены разнообразные ошибки с БД ПК.                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md       |
-| KodeksDBerrorsCodeXXXCount  | Выявлены разнообразные ошибки с БД ПК.<br>**Много однотипных ошибок по многим БД ПК.**                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md  |
+| KodeksDBerrorsCodeXXXCount  | Выявлены разнообразные ошибки с БД ПК. **Много однотипных ошибок по многим БД ПК.**                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md  |
 | KodeksDBOperUpToOld         | Дата операпов старше 3 дней                                                                                                | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOld.md         |
-| KodeksDBOperUpToOldCount    | Дата операпов старше 3 дней.<br>**Много однотипных ошибок по многим операпам.**                                            | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md    |
+| KodeksDBOperUpToOldCount    | Дата операпов старше 3 дней. **Много однотипных ошибок по многим операпам.**                                            | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md    |
 
 ---
 ### Алерты, связанные с сетевой доступностью
@@ -87,12 +87,12 @@
 
 | **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                         | **Адрес с полным описанием и способами устранения**                |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ,<br>а ПК вернул ему, что **нет свободных рабочих мест для входа.**                                                   | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
+| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ, а ПК вернул ему, что **нет свободных рабочих мест для входа.**                                                   | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
 | KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                       | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
 | KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                      | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
 | KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
 | KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
-| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она<br>при этом функциональна), происходит вход пользователей и есть данные об<br>об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
+| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она при этом функциональна), происходит вход пользователей и есть данные об об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
 
 ---
 ### Алерты, связанные с пользователями и их работой в ПК ТЭ
