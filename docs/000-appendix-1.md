@@ -17,8 +17,8 @@
 
 | **Имя алерта**              | **Краткое описание алерта**                                                                                                | **Адрес с полным описанием и способами устранения**                 |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить.                                                 | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
-| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ<br>не смог определить. **Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
+| KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить.                                                 | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
+| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить. **Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
 | KodeksDBerrorsCode2007      | Ошибка БД 2007 - Нет прав на использование данной БД.                                                                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md      |
 | KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД. **Много однотипных ошибок по многим БД ПК.**                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
 | KodeksDBerrorsCodeXXX       | Выявлены разнообразные ошибки с БД ПК.                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md       |
