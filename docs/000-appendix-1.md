@@ -15,16 +15,16 @@
 ---
 ### Алерты на ошибки с базами данных и operup
 
-| **Имя алерта**              | **Краткое описание алерта**                                                                                                | **Адрес с полным описанием и способами устранения**                 |
-|-----------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить.                                                 | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
-| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить. **Много однотипных ошибок по многим БД ПК.** | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
-| KodeksDBerrorsCode2007      | Ошибка БД 2007 - Нет прав на использование данной БД.                                                                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md      |
-| KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД. **Много однотипных ошибок по многим БД ПК.**                      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
-| KodeksDBerrorsCodeXXX       | Выявлены разнообразные ошибки с БД ПК.                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md       |
-| KodeksDBerrorsCodeXXXCount  | Выявлены разнообразные ошибки с БД ПК. **Много однотипных ошибок по многим БД ПК.**                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md  |
-| KodeksDBOperUpToOld         | Дата операпов старше 3 дней                                                                                                | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOld.md         |
-| KodeksDBOperUpToOldCount    | Дата операпов старше 3 дней. **Много однотипных ошибок по многим операпам.**                                            | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md    |
+| **Имя алерта**              | **Краткое описание алерта**                                                                                               | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| KodeksDBerrorsCode1         | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить.                                                   | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1.md         |
+| KodeksDBerrorsCode1Count    | Есть ошибки, связанные с БД ПК, но код ошибки СМАРТ не смог определить. **Много однотипных ошибок по многим БД ПК.**      | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode1Count.md    |
+| KodeksDBerrorsCode2007      | Ошибка БД 2007 - Нет прав на использование данной БД.                                                                     | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007.md      |
+| KodeksDBerrorsCode2007Count | Ошибка БД 2007 - Нет прав на использование данной БД. **Много однотипных ошибок по многим БД ПК.**                        | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCode2007Count.md |
+| KodeksDBerrorsCodeXXX       | Выявлены разнообразные ошибки с БД ПК.                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXX.md       |
+| KodeksDBerrorsCodeXXXCount  | Выявлены разнообразные ошибки с БД ПК. **Много однотипных ошибок по многим БД ПК.**                                       | http://smart.uniclass.ru/docs/errors/KodeksDBerrorsCodeXXXCount.md  |
+| KodeksDBOperUpToOld         | Дата операпов старше 3 дней                                                                                               | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOld.md         |
+| KodeksDBOperUpToOldCount    | Дата операпов старше 3 дней. **Много однотипных ошибок по многим операпам.**                                              | http://smart.uniclass.ru/docs/errors/KodeksDBOperUpToOldCount.md    |
 
 ---
 ### Алерты, связанные с сетевой доступностью
@@ -56,14 +56,15 @@
 | OnlineLoginFailed           | Авторизация по онлайн-доступу не прошла.     | http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md           |
 
 ---
-### Алерты, связаные с сетевой доступностью ПК ТЭ
+### Алерты, связанные с сетевой доступностью ПК ТЭ
 
-| **Имя алерта**          | **Краткое описание алерта*                                                                           | **Адрес с полным описанием и способами устранения**             |
-|-------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| KodeksMaintenance       | ПК ТЭ в режиме тех.обслуживания.                                                                     | http://smart.uniclass.ru/docs/errors/KodeksMaintenance.md       |
-| KodeksMaintenanceCount  | Большое количество ПК ТЭ оказались в режиме тех.обслуживания.                                        | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceCount.md  |
-| KodeksNeedSupport       | На Главной странице ПК ТЭ появляется сервисное сообщение<br>о необходимости сервисного обслуживания. | http://smart.uniclass.ru/docs/errors/KodeksNeedSupport.md       |
-| KodeksMaintenanceToLong | ПК в режиме тех.обслуживания более 3 часов подряд.                                                   | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLong.md |
+| **Имя алерта**               | **Краткое описание алерта*                                                                           | **Адрес с полным описанием и способами устранения**                  |
+|------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| KodeksMaintenance            | ПК ТЭ в режиме тех.обслуживания.                                                                     | http://smart.uniclass.ru/docs/errors/KodeksMaintenance.md            |
+| KodeksMaintenanceCount       | Большое количество ПК ТЭ оказались в режиме тех.обслуживания.                                        | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceCount.md       |
+| KodeksNeedSupport            | На Главной странице ПК ТЭ появляется сервисное сообщение<br>о необходимости сервисного обслуживания. | http://smart.uniclass.ru/docs/errors/KodeksNeedSupport.md            |
+| KodeksMaintenanceToLong      | ПК в режиме тех.обслуживания более 3 часов подряд.                                                   | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLong.md      |
+| KodeksMaintenanceToLongCount | ПК в режиме тех.обслуживания более 3 часов подряд. **Много однотипных ошибок по многим ПК ТЭ.**      | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceToLongCount.md |
 
 --
 ### Алерты, связанные с работой Менеджера лицензий
