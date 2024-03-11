@@ -29,12 +29,13 @@
 ---
 ### Алерты, связанные с сетевой доступностью
 
-| **Имя алерта**        | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**           |
-|-----------------------|----------------------------------------------------------------------------|---------------------------------------------------------------|
-| KodeksBehindProxyDown | На сервере с ПК ТЭ есть проблемы с reverse-proxy.                          | http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md |
-| KodeksHttp200Status   | На запросы ПК ТЭ не отвечает HTTP 200.                                     | http://smart.uniclass.ru/docs/errors/KodeksHttp200Status.md   |
-| KodeksIcmp            | Проверка на доступность ПК ТЭ командой ping по протоколу ICMP не проходит. | http://smart.uniclass.ru/docs/errors/KodeksIcmp.md            |
-| KodeksTcpStatus       | Проверяется, что порт-монитор ПК ТЭ готов "слушать".                       | http://smart.uniclass.ru/docs/errors/KodeksTcpStatus.md       |
+| **Имя алерта**           | **Краткое описание алерта**                                                         | **Адрес с полным описанием и способами устранения**              |
+|--------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| KodeksBehindProxyDown    | На сервере с ПК ТЭ есть проблемы с reverse-proxy.                                   | http://smart.uniclass.ru/docs/errors/KodeksBehindProxyDown.md    |
+| KodeksHttp200Status      | На запросы ПК ТЭ не отвечает HTTP 200.                                              | http://smart.uniclass.ru/docs/errors/KodeksHttp200Status.md      |
+| KodeksHttp200StatusCount | На запросы ПК ТЭ не отвечает HTTP 200. **Много однотипных ошибок по многим хостам** | http://smart.uniclass.ru/docs/errors/KodeksHttp200StatusCount.md | 
+| KodeksIcmp               | Проверка на доступность ПК ТЭ командой ping по протоколу ICMP не проходит.          | http://smart.uniclass.ru/docs/errors/KodeksIcmp.md               |
+| KodeksTcpStatus          | Проверяется, что порт-монитор ПК ТЭ готов "слушать".                                | http://smart.uniclass.ru/docs/errors/KodeksTcpStatus.md          |
 
 ---
 ### Алерты, связанные с простыми онлайн-доступами
@@ -58,7 +59,7 @@
 ---
 ### Алерты, связанные с сетевой доступностью ПК ТЭ
 
-| **Имя алерта**               | **Краткое описание алерта**                                                                           | **Адрес с полным описанием и способами устранения**                  |
+| **Имя алерта**               | **Краткое описание алерта**                                                                          | **Адрес с полным описанием и способами устранения**                  |
 |------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | KodeksMaintenance            | ПК ТЭ в режиме тех.обслуживания.                                                                     | http://smart.uniclass.ru/docs/errors/KodeksMaintenance.md            |
 | KodeksMaintenanceCount       | Большое количество ПК ТЭ оказались в режиме тех.обслуживания.                                        | http://smart.uniclass.ru/docs/errors/KodeksMaintenanceCount.md       |
@@ -69,7 +70,7 @@
 ---
 ### Алерты, связанные с работой Менеджера лицензий
 
-| **Имя алерта**   | **Краткое описание алерта**                                                  | **Адрес с полным описанием и способами устранения**     |
+| **Имя алерта**   | **Краткое описание алерта**                                                 | **Адрес с полным описанием и способами устранения**     |
 |-----------------|------------------------------------------------------------------------------|---------------------------------------------------------|
 | LicmanIcmp      | Проверка на доступность Менеджера лицензий командой Ping по протокорлу ICMP. | http://smart.uniclass.ru/docs/errors/LicmanIcmp.md      |
 | LicmanTcpStatus | Проверка, что порт-монитор Менеджера лицензий открыт и "слушает".            | http://smart.uniclass.ru/docs/errors/LicmanTcpStatus.md |
@@ -86,14 +87,14 @@
 ---
 ### Алерты, связанные с лицензией (рег.файлом и его работой, рабочими местами по лицензии)
 
-| **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                         | **Адрес с полным описанием и способами устранения**                |
-|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ, а ПК вернул ему, что **нет свободных рабочих мест для входа.**                                                   | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
-| KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                       | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
-| KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                      | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
-| KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
-| KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
-| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она при этом функциональна), происходит вход пользователей и есть данные об об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
+| **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                       | **Адрес с полным описанием и способами устранения**                |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ, а ПК вернул ему, что **нет свободных рабочих мест для входа.**                                                    | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
+| KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
+| KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
+| KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                   | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
+| KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                  | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
+| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она при этом функциональна), происходит вход пользователей и есть данные об об их деятельности в ПК ТЭ.     | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
 
 ---
 ### Алерты, связанные с пользователями и их работой в ПК ТЭ
@@ -108,13 +109,13 @@
 ---
 ### Прочие алерты
 
-| **Имя алерта**      | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**         |
-|---------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
-| KodeksAuthNotWork   | Проверяется, что пользователи могут успешно проходить авторизацию в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md   |
-| KodeksSppStatus     | Проверяется, что СПП работает.                                             | http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md     |
-| KodeksWarning       | Проверяется, что на установке нет каких-либо аварийных состояний           | http://smart.uniclass.ru/docs/errors/KodeksWarning.md       |
-| SmartXMLfileIsToOld | Проверяется, что СМАРТ регулярно получает выгрузки sysinfo                 | http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md |
-
+| **Имя алерта**        | **Краткое описание алерта**                                                                      | **Адрес с полным описанием и способами устранения**         |
+|-----------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| KodeksAuthNotWork     | Проверяется, что пользователи могут успешно проходить авторизацию в ПК ТЭ.                       | http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md   |
+| KodeksSppStatus       | Проверяется, что СПП работает.                                                                   | http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md     |
+| KodeksWarning         | Проверяется, что на установке нет каких-либо аварийных состояний                                 | http://smart.uniclass.ru/docs/errors/KodeksWarning.md       |
+| SmartXMLfileIsToOld   | Проверяется, что СМАРТ регулярно получает выгрузки sysinfo                                       | http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md |
+| KodeksDBLicensesZero  | Проверяется, что выгрузка sysinfo имеет заполненный блок с сроком действия лицензии по каждой БД | http://smart.uniclass.ru/docs/errors/KodeksDBLicensesZero.md |
 [Вернуться в Начало](000-intro.md)
 
 [Вернуться к Оглавлению](Readme.md)
