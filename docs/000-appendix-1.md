@@ -108,11 +108,12 @@
 ---
 ### Прочие алерты
 
-| **Имя алерта**    | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**       |
-|-------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
-| KodeksAuthNotWork | Проверяется, что пользователи могут успешно проходить авторизацию в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md |
-| KodeksSppStatus   | Проверяется, что СПП работает.                                             | http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md   |
-| KodeksWarning     | Проверяется, что на установке нет каких-либо аварийных состояний           | http://smart.uniclass.ru/docs/errors/KodeksWarning.md     |
+| **Имя алерта**      | **Краткое описание алерта**                                                | **Адрес с полным описанием и способами устранения**         |
+|---------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
+| KodeksAuthNotWork   | Проверяется, что пользователи могут успешно проходить авторизацию в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksAuthNotWork.md   |
+| KodeksSppStatus     | Проверяется, что СПП работает.                                             | http://smart.uniclass.ru/docs/errors/KodeksSppStatus.md     |
+| KodeksWarning       | Проверяется, что на установке нет каких-либо аварийных состояний           | http://smart.uniclass.ru/docs/errors/KodeksWarning.md       |
+| SmartXMLfileIsToOld | Проверяется, что СМАРТ регулярно получает выгрузки sysinfo                 | http://smart.uniclass.ru/docs/errors/SmartXMLfileIsToOld.md |
 
 [Вернуться в Начало](000-intro.md)
 
