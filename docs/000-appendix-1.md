@@ -42,24 +42,26 @@
 ---
 ### Алерты, связанные с простыми онлайн-доступами
 
-| **Имя алерта**              | **Краткое описание алерта**                                                                                         | **Адрес с полным описанием и способами устранения**                 |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| OnlineBillingDocsLeft150    | Биллинг на открытие документов - меньше 150шт.                                                                      | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft150.md    |
-| OnlineBillingDocsLeft50     | Биллинг на открытие документов - меньше 50шт.                                                                       | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft50.md     |
-| OnlineBillingDocsLeftZero   | Биллинг на открытие документов - ноль.                                                                              | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeftZero.md   |
-| OnlineBillingPrintLeft150   | Биллинг на печать документов - меньше 150шт.                                                                        | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft150.md   |
-| OnlineBillingPrintLeft50    | Биллинг на печать документов - меньше 50шт.                                                                         | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md    |
-| OnlineBillingPrintLeftZero  | Биллинг на печать документов - ноль                                                                                 | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md  |
-| OnlineBillingSearchLeft150  | Биллинг на поиск документов - меньше 150шт.                                                                         | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch150.md      |
-| OnlineBillingSearchLeft50   | Биллинг на поиск документов - меньше 50шт.                                                                          | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch50.md       |
-| OnlineBillingSearchLeftZero | Биллинг на поиск документов - ноль.                                                                                 | http://smart.uniclass.ru/docs/errors/OnlineBillingSearchLeftZero.md |
-| OnlineBillingUploadLeft150  | Биллинг на выгрузку документов - меньше 150шт.                                                                      | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md  |
-| OnlineBillingUploadLeft50   | Биллинг на выгрузку документов - меньше 50шт.                                                                       | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md   |
-| OnlineBillingUploadLeftZero | Биллинг на выгрузку документов - ноль.                                                                              | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md |
-| OnlineLoginFailed           | Авторизация по онлайн-доступу не прошла.                                                                            | http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md           |
-| OnlineUserActivityIsLow10   | Проверяется уровень показателя активности (% исп.док.) на 10ое число месяца - <br/>алерт когда показатель ниже 3%.  | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow10.md   |
-| OnlineUserActivityIsLow20   | Проверяется уровень показателя активности (% исп.док.) на 20ое число месяца - <br/>алерт когда показатель ниже 10%. | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow20.md   |
-| OnlineUserActivityIsLow30   | Проверяется уровень показателя активности (% исп.док.) на 30ое число месяца - <br/>алерт когда показатель ниже 15%. | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow30.md   |
+| **Имя алерта**              | **Краткое описание алерта**                                                                                                    | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| OnlineBillingDocsLeft150    | Биллинг на открытие документов - меньше 150шт.                                                                                 | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft150.md    |
+| OnlineBillingDocsLeft50     | Биллинг на открытие документов - меньше 50шт.                                                                                  | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeft50.md     |
+| OnlineBillingDocsLeftZero   | Биллинг на открытие документов - ноль.                                                                                         | http://smart.uniclass.ru/docs/errors/OnlineBillingDocsLeftZero.md   |
+| OnlineBillingPrintLeft150   | Биллинг на печать документов - меньше 150шт.                                                                                   | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft150.md   |
+| OnlineBillingPrintLeft50    | Биллинг на печать документов - меньше 50шт.                                                                                    | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeft50.md    |
+| OnlineBillingPrintLeftZero  | Биллинг на печать документов - ноль                                                                                            | http://smart.uniclass.ru/docs/errors/OnlineBillingPrintLeftZero.md  |
+| OnlineBillingSearchLeft150  | Биллинг на поиск документов - меньше 150шт.                                                                                    | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch150.md      |
+| OnlineBillingSearchLeft50   | Биллинг на поиск документов - меньше 50шт.                                                                                     | http://smart.uniclass.ru/docs/errors/OnlineBillingSearch50.md       |
+| OnlineBillingSearchLeftZero | Биллинг на поиск документов - ноль.                                                                                            | http://smart.uniclass.ru/docs/errors/OnlineBillingSearchLeftZero.md |
+| OnlineBillingUploadLeft150  | Биллинг на выгрузку документов - меньше 150шт.                                                                                 | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft150.md  |
+| OnlineBillingUploadLeft50   | Биллинг на выгрузку документов - меньше 50шт.                                                                                  | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeft50.md   |
+| OnlineBillingUploadLeftZero | Биллинг на выгрузку документов - ноль.                                                                                         | http://smart.uniclass.ru/docs/errors/OnlineBillingUploadLeftZero.md |
+| OnlineLoginFailed           | Авторизация по онлайн-доступу не прошла.                                                                                       | http://smart.uniclass.ru/docs/errors/OnlineLoginFailed.md           |
+| OnlineUserActivityIsLow10   | Проверяется уровень показателя активности (% исп.док.) на 10ое число месяца - <br/>алерт когда показатель ниже 3%.             | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow10.md   |
+| OnlineUserActivityIsLow20   | Проверяется уровень показателя активности (% исп.док.) на 20ое число месяца - <br/>алерт когда показатель ниже 10%.            | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow20.md   |
+| OnlineUserActivityIsLow30   | Проверяется уровень показателя активности (% исп.док.) на 30ое число месяца - <br/>алерт когда показатель ниже 15%.            | http://smart.uniclass.ru/docs/errors/OnlineUserActivityIsLow30.md   |
+| KodeksSearchIsEmpty         | Проверяется, что по поисковому запросу пользователя ПК ТЭ что-то нашел. <br/> Валидно и для установок, и для простых онлайнов. | http://smart.uniclass.ru/docs/errors/KodeksSearchIsEmpty.md         |
+
 
 ---
 ### Алерты, связанные с сетевой доступностью ПК ТЭ
@@ -92,25 +94,25 @@
 ---
 ### Алерты, связанные с лицензией (рег.файлом и его работой, рабочими местами по лицензии)
 
-| **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                        | **Адрес с полным описанием и способами устранения**                |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ, а ПК вернул ему, что <br/>**нет свободных рабочих мест для входа.**                                                | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
-| KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                      | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
-| KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                     | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
-| KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                    | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
-| KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                   | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
-| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание (но она при этом функциональна), <br/>происходит вход пользователей и есть данные об об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
+| **Имя алерта**             | **Краткое описание алерта**                                                                                                                                                     | **Адрес с полным описанием и способами устранения**                |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| KodeksDetectOverUserError  | Проверяется ситуация, когда пользователь захотел зайти в ПК ТЭ, а ПК вернул ему, что <br/>**нет свободных рабочих мест для входа.**                                             | http://smart.uniclass.ru/docs/errors/KodeksDetectOverUserError.md  |
+| KodeksLicenseExpiring2day  | Лицензия истечет через 2 дня.                                                                                                                                                   | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring2day.md  |
+| KodeksLicenseExpiring7day  | Лицензия истечет через 7 дней.                                                                                                                                                  | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring7day.md  |
+| KodeksLicenseExpiring90day | Лицензия истечет через 90 дней.                                                                                                                                                 | http://smart.uniclass.ru/docs/errors/KodeksLicenseExpiring90day.md |
+| KodeksLimitsUsers          | Проверяется, что не осталось свободных рабочих мест по лицензии.                                                                                                                | http://smart.uniclass.ru/docs/errors/KodeksLimitsUsers.md          |
+| KodeksUnsupportedButUsed   | Проверяется, что на установку, по которой прекращено обслуживание <br/>(но она при этом функциональна), происходит вход пользователей и есть данные об их деятельности в ПК ТЭ. | http://smart.uniclass.ru/docs/errors/KodeksUnsupportedButUsed.md   |
 
 ---
 ### Алерты, связанные с пользователями и их работой в ПК ТЭ
 
-| **Имя алерта**              | **Краткое описание алерта**                                                                           | **Адрес с полным описанием и способами устранения**                 |
-|-----------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| KodeksNewUser               | Проверяется, что в ПК ТЭ зарегистрировался новый пользователь.                                        | http://smart.uniclass.ru/docs/errors/KodeksNewUser.md               |
-| KodeksUserActivityIsLow     | Проверяется, что Активность пользователей по установке не ниже 20.                                    | http://smart.uniclass.ru/docs/errors/KodeksUserActivityIsLow.md     |
-| KodeksUserAInvolvementIsLow | Проверяется, что Вовлеченность пользователей по установке не ниже 60%.                                | http://smart.uniclass.ru/docs/errors/KodeksUserAInvolvementIsLow.md |
-| KodeksSearchIsEmpty         | Проверяется, что по поисковому запросу пользователя ПК ТЭ что-то нашел.                               | http://smart.uniclass.ru/docs/errors/KodeksSearchIsEmpty.md         |
-| KodeksSearchError           | Проверяется, что поисковый запрос корректно разбирается и <br/>обрабатывается поисковой машиной ПК ТЭ | http://smart.uniclass.ru/docs/errors/KodeksSearchError.md           |
+| **Имя алерта**              | **Краткое описание алерта**                                                                                                    | **Адрес с полным описанием и способами устранения**                 |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| KodeksNewUser               | Проверяется, что в ПК ТЭ зарегистрировался новый пользователь.                                                                 | http://smart.uniclass.ru/docs/errors/KodeksNewUser.md               |
+| KodeksUserActivityIsLow     | Проверяется, что Активность пользователей по установке не ниже 20.                                                             | http://smart.uniclass.ru/docs/errors/KodeksUserActivityIsLow.md     |
+| KodeksUserAInvolvementIsLow | Проверяется, что Вовлеченность пользователей по установке не ниже 60%.                                                         | http://smart.uniclass.ru/docs/errors/KodeksUserAInvolvementIsLow.md |
+| KodeksSearchIsEmpty         | Проверяется, что по поисковому запросу пользователя ПК ТЭ что-то нашел. <br/> Валидно и для установок, и для простых онлайнов. | http://smart.uniclass.ru/docs/errors/KodeksSearchIsEmpty.md         |
+| KodeksSearchError           | Проверяется, что поисковый запрос корректно разбирается и <br/>обрабатывается поисковой машиной ПК ТЭ                          | http://smart.uniclass.ru/docs/errors/KodeksSearchError.md           |
 
 ---
 ### Прочие алерты
