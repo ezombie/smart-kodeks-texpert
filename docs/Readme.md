@@ -14,10 +14,10 @@
 - [Система сбора отчетов](020-auto-collect-sysinfo.md)
 - [Алертинг](030-alert.md)
 - [Grafana](040-grafana.md) 
-- [Интерфейс](050-grafana-interface.md)
-- [Настройки](060-grafana-visualization.md)
-- [Как это работает и как это применять](080-dashboards.md)
-- [Как это внедрять у клиентов](070-intro-smartuload-smartstatus.md)
+- [Интерфейс](041-grafana-interface)
+- [Настройки](042-grafana-visualization)
+- [Как это работает и как это применять](060-dashboards)
+- [Как это внедрять у клиентов](050-intro-smartuload-smartstatus)
 
 ## Уже есть вопросы?
 

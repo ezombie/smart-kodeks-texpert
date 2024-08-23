@@ -25,8 +25,8 @@
 
 В колонке "domain" отображается домен в ActiveDirectory.
 
-[Листай дальше](092-search-query.md)
+[Листай дальше](072-search-query)
 
-[Вернуться назад](080-dashboards.md)
+[Вернуться назад](060-dashboards)
 
 [Вернуться в Оглавление](Readme.md)
