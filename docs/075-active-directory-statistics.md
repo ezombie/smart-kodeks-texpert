@@ -34,8 +34,8 @@
 
 ---
 
-[Листай дальше](076-current-emergences)
+[Листай дальше](076-current-emergences.md)
 
-[Вернуться назад](060-dashboards)
+[Вернуться назад](060-dashboards.md)
 
 [Вернуться в Оглавление](Readme.md)
