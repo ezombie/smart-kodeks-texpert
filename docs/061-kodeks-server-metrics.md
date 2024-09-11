@@ -82,8 +82,8 @@
 
 Телеграмм-чат «СМАРТ-мониторинга» - https://t.me/+uRkrNE_SNYY0YTUy
 
-[Углубляемся еще дальше](062-kodeks-analytics.md)
+[Дальше](062-kodeks-analytics.md)
 
-[Вернуться назад](060-dashboards.md)
+[Назад](060-dashboards.md)
 
 [Вернуться к Оглавлению, если стало страшно](Readme.md)

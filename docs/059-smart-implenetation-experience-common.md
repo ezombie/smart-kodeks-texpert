@@ -80,6 +80,6 @@
 [Что делать менеджеру по сопровождению/сбыту для внедрения СМАРТа?](057-smart-implementation-experience-manager.md)
 [Что делать техническому специалисту для внедрения СМАРТа?](058-smart-implementation-experience-tech.md)
 
-[Вернуться назад](050-intro-smartuload-smartstatus.md)
+[Назад](050-intro-smartuload-smartstatus.md)
 
 [Вернуться к Оглавлению, если стало страшно](Readme.md)

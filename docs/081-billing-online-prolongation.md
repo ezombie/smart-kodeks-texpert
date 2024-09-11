@@ -71,8 +71,8 @@ _Пример №2. Нам надо поглядеть, как сейчас, и 
 
 
 
-[Листай дальше](082-quarterly-analytics.md)
+[Дальше](082-quarterly-analytics.md)
 
-[Вернуться назад](080-server-availability-online.md)
+[Назад](080-server-availability-online.md)
 
 [Вернуться в Оглавление](Readme.md)
