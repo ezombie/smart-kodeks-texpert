@@ -80,8 +80,6 @@
 
 Все мы в одной лодке.
 
-Телеграмм-чат «СМАРТ-мониторинга» - https://t.me/+uRkrNE_SNYY0YTUy
-
 [Дальше](062-kodeks-analytics.md)
 
 [Назад](060-dashboards.md)
