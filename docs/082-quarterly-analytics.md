@@ -2,7 +2,7 @@
 
 Скоро здесь будет подробное описание. Следи за изменениями, коллега.
 
-[Дальше](100-smart-real-cases-1.md)
+[Дальше](083-timed-query.md)
 
 [Назад](081-billing-online-prolongation.md)
 
