@@ -71,3 +71,5 @@ kserver_product_control{service="kodweb",path="/docs"} 0
 ```
 Скрипт написан на языке Bash или CMD в зависимости от ОС. Для работы с сетью использует утилиту Curl ( https://curl.se/ )
 
+[Продолжить чтение о внедрении](050-intro-smartuload-smartstatus.md)
+[Вернуться к Оглавлению, если стало страшно](Readme.md)

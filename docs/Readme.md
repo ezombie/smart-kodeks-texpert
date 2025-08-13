@@ -18,6 +18,7 @@
 - [Настройки](042-grafana-visualization.md)
 - [Как это работает и как это применять](060-dashboards.md)
 - [Как это внедрять у клиентов](050-intro-smartuload-smartstatus.md)
+- [А если ИБ клиента задаст вопросы?](090-smartupload-smartstatus-client-cybersecurity.md)
 
 ## Уже есть вопросы?
 

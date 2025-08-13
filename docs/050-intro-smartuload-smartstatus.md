@@ -44,6 +44,7 @@ Smartupload может быть внедрен для контроля за ус
 - [Как внедрить smartupload на установке, размещенной в сервисе "Техэксперт.Облако"?](056-smartupload-implementation-TEcloud.md)
 - [Как внедрить smartstatus на клиентской установке](053-smartstatus-implementation-windows.md)
 - [Как внедрить СМАРТ.Онлайн?](054-smartonline-implementation.md)
+- [Как отделу ИБ клиента объяснить что такое СМАРТ-Мониторинг и зачем он нужен](090-smartupload-smartstatus-client-cybersecurity.md)
 
 # А ЧТО ДЕЛАТЬ ПОСЛЕ ВНЕДРЕНИЯ?!
 
