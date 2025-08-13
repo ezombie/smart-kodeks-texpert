@@ -1,16 +1,16 @@
-``` plantuml firstDiagram
+
 @startuml firstDiagram
 left to right direction
 node "ПК в офисе Клиента" {
-    [ПК с ИСС К/ТЭ и\nsmartupload / smartstatus.] --> (Firewall клиента.): 🖂 отчет SysInfo
+    [ПК с ИСС К/ТЭ и\nsmartupload / smartstatus.] --> (Firewall / proxy клиента.): 🖂 отчет SysInfo
     [ПК с ИСС К/ТЭ без\nsmartupload / smartstatus.] ..> [ПК без ИСС К/ТЭ с\nsmartupload / smartstatus]: 🖂 отчет SysInfo
     [ПК без ИСС К/ТЭ с\nsmartupload / smartstatus] --> [ПК с ИСС К/ТЭ без\nsmartupload / smartstatus.]: 🖂 запрос на формирование отчета SysInfo
-    [ПК без ИСС К/ТЭ с\nsmartupload / smartstatus] --> (Firewall клиента.): 🖂 отчет SysInfo
+    [ПК без ИСС К/ТЭ с\nsmartupload / smartstatus] --> (Firewall / proxy клиента.): 🖂 отчет SysInfo
 }
 node "ПК в датацентре" {
-    [ПК с ИСС К/ТЭ и\nsmartupload / smartstatus..] --> (Firewall клиента..): 🖂 отчет SysInfo
+    [ПК с ИСС К/ТЭ и\nsmartupload / smartstatus..] --> (Firewall / proxy клиента..): 🖂 отчет SysInfo
 }
-[Сервер\nСМАРТ-Мониторинг] <-up- (Firewall клиента.): 🖂 отчет SysInfo
-[Сервер\nСМАРТ-Мониторинг] <-up- (Firewall клиента..): 🖂 отчет SysInfo
+[Сервер\nСМАРТ-Мониторинг] <-up- (Firewall / proxy клиента.): 🖂 отчет SysInfo
+[Сервер\nСМАРТ-Мониторинг] <-up- (Firewall / proxy клиента..): 🖂 отчет SysInfo
 @enduml
-```
+
